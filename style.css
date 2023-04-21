@@ -1,0 +1,31 @@
+body_{
+    background-repeat: repeat;
+    }
+    
+    h2{
+        font-size: 45px !important;
+    }
+    
+    .btn-success{
+        font-size: 35px !important;
+    
+    }
+    
+    .btn-success:hover{
+        background-color: palevioletred;
+    }
+    
+    
+    @keyframes example {
+     
+     from {box-shadow: -50px -50px 38px royalblue ;}   
+     to {box-shadow: 50px 50px 38px crimson ;}   
+    
+    }
+    
+    
+    canvas{
+        animation-name: example ;
+        animation-duration: 4s;
+        animation-iteration-count: infinite ;
+    }
